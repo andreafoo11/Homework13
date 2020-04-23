@@ -1,0 +1,20 @@
+{
+  "name": "FinalProject ",
+  "version": "1.0.0",
+  "description": "Node.js for saving to mongodb",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node /Users/andreafoo/Desktop/tufts/Sophomore-Spring/Comp20/Homework13/node.js"
+  },
+  "author": "Andrea Foo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csv": "^0.3.7",
+    "csv-parser": "^2.3.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5",
+    "url": "^0.11.0"
+  }
+}

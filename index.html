@@ -1,0 +1,30 @@
+<!doctype html> 
+<html> 
+<head> 
+    <title> Comp20 Homework 13</title>
+    <meta name="author" content="Andrea Foo"> 
+    <meta charset="utf-8"/> 
+    <style>
+        body {
+          background-color: beige;
+          text-align: center;
+        }
+    </style>
+
+    
+</head>
+
+<body>
+  <h1>Companies and Stocks</h1>
+  <h2>Please input Company Name or Stock Ticker to get information </h2>
+     <form method = "GET" action = "http://localhost:8080">
+       <select name="myselect">
+         <option value="0">Select</option>
+         <option value="1">Company Name</option>
+         <option value="2">Stock Ticker</option>
+       </select>
+       <input type="text" id="search_value" name="search_value">
+       <input type = "submit" name = "search" value = "Search">
+    </form>
+</body>
+</html>
